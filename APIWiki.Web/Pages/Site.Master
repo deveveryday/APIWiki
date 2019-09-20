@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Altairis.Sewen.Wiki.Pages.Site" ViewStateMode="Disabled" %>
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="~/Styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="//ajax.aspnetcdn.com/ajax/jquery.ui/1.8.17/themes/redmond/jquery-ui.css" />
+    <link rel="shortcut icon" href="~/favicon.ico" />
+    <link rel="icon" type="image/vnd.microsoft.icon" href="~/favicon.ico" />
+    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script><![endif]-->
+</head>
+<body>
+    <form id="form1" runat="server">
+    <header>
+        <asp:ScriptManager runat="server" AjaxFrameworkMode="Disabled" EnableCdn="true">
+            <Scripts>
+                <asp:ScriptReference Path="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.1.min.js" />
+                <asp:ScriptReference Path="//ajax.aspnetcdn.com/ajax/jquery.ui/1.8.17/jquery-ui.min.js" />
+                <asp:ScriptReference Path="~/Scripts/jquery.textinputs.min.js" />
+                <asp:ScriptReference Path="~/Scripts/jquery.sewenEditor.js" />
+                <asp:ScriptReference Path="~/Scripts/jquery.dialogHelper.js" />
+                <asp:ScriptReference Path="~/Scripts/ui.js" />
+            </Scripts>
+        </asp:ScriptManager>
+        <asp:LoginView runat="server">
+            <AnonymousTemplate>
+                <ul>
+                    <li>
+                        <altairis:IconHyperLink runat="server" NavigateUrl="<%$ RouteUrl: RouteName=AccountLogin %>" Text="<%$ Resources: UI, pages_site_master_iconhyperlink_text_0000 %>" Icon="User" />
+                    </li>
+                </ul>
+            </AnonymousTemplate>
+            <LoggedInTemplate>
+                <ul>
+                    <li>
+                        <altairis:IconHyperLink runat="server" Icon="User" Mode="IconOnly" />
+                        <asp:LoginName runat="server" FormatString="<%$ Resources: UI, pages_site_master_loginname_formatstring_0000 %>" />
+                    </li>
+                    <li>
+                        <altairis:IconHyperLink runat="server" Icon="Key" NavigateUrl="<%$ RouteUrl: RouteName=AccountPassword %>" Text="<%$ Resources: UI, pages_site_master_iconhyperlink_text_0001 %>" />
+                    </li>
+                    <li>
+                        <altairis:IconHyperLink runat="server" Icon="DoorOut" NavigateUrl="<%$ RouteUrl: RouteName=AccountLogout %>" Text="<%$ Resources: UI, pages_site_master_iconhyperlink_text_0002 %>" data-confirm-buttons="<%$ Resources: UI, _ConfirmButtons %>" data-confirm-title="<%$ Resources: UI, _ConfirmTitle %>" data-confirm-prompt="<%$ Resources: UI, pages_site_master_iconhyperlink_confirm_0002 %>" />
+                    </li>
+                </ul>
+            </LoggedInTemplate>
+            <RoleGroups>
+                <asp:RoleGroup Roles="<%$ SewenConfig: Security.AdminRoleName %>">
+                    <ContentTemplate>
+                        <ul>
+                            <li>
+                                <altairis:IconHyperLink runat="server" Icon="UserRed" Mode="IconOnly" />
+                                <asp:LoginName runat="server" FormatString="<%$ Resources: UI, pages_site_master_loginname_formatstring_0001 %>" />
+                            </li>
+                            <li>
+                                <altairis:IconHyperLink runat="server" Icon="UserEdit" NavigateUrl="<%$ RouteUrl: RouteName=AdminUserList %>" Text="<%$ Resources: UI, pages_site_master_iconhyperlink_text_0003 %>" Visible="<%$ SewenConfig: Security.EnableUserManager %>" />
+                            </li>
+                            <li>
+                                <altairis:IconHyperLink runat="server" Icon="Key" NavigateUrl="<%$ RouteUrl: RouteName=AccountPassword %>" Text="<%$ Resources: UI, pages_site_master_iconhyperlink_text_0001 %>" />
+                            </li>
+                            <li>
+                                <altairis:IconHyperLink runat="server" Icon="DoorOut" NavigateUrl="<%$ RouteUrl: RouteName=AccountLogout %>" Text="<%$ Resources: UI, pages_site_master_iconhyperlink_text_0002 %>" data-confirm-buttons="<%$ Resources: UI, _ConfirmButtons %>" data-confirm-title="<%$ Resources: UI, _ConfirmTitle %>" data-confirm-prompt="<%$ Resources: UI, pages_site_master_iconhyperlink_confirm_0002 %>" />
+                            </li>
+                        </ul>
+                    </ContentTemplate>
+                </asp:RoleGroup>
+            </RoleGroups>
+        </asp:LoginView>
+        <asp:HyperLink runat="server" NavigateUrl="<%$ RouteUrl: RouteName=HomePage %>" Text="<%$ Resources: UI, pages_site_master_hyperlink_text_0000 %>" ImageUrl="https://avatars3.githubusercontent.com/u/35467010?s=460&v=4" Width="330px" Height="70px" ToolTip="<%$ Resources: UI, pages_site_master_hyperlink_tooltip_0000 %>" />
+    </header>
+    <asp:ContentPlaceHolder ID="MainCPH" runat="server" />
+    <footer>
+        <asp:Localize runat="server" Text="<%$ Resources: UI, pages_site_master_footer %>" />
+    </footer>
+    </form>
+</body>
+</html>

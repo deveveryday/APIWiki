@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="_Insert" xml:space="preserve">
+    <value>Insert</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="_Submit" xml:space="preserve">
+    <value>Submit</value>
+    <comment>2012-01-08 21:25:05</comment>
+  </data>
+  <data name="_Update" xml:space="preserve">
+    <value>Update</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_account_login_checkbox_text_0000" xml:space="preserve">
+    <value>Remember me next time (uncheck if you are on shared computer)</value>
+    <comment>2012-01-08 21:25:05</comment>
+  </data>
+  <data name="pages_account_login_label_text_0000" xml:space="preserve">
+    <value>User name:</value>
+    <comment>2012-01-08 21:25:05</comment>
+  </data>
+  <data name="pages_account_login_label_text_0001" xml:space="preserve">
+    <value>Password:</value>
+    <comment>2012-01-08 21:25:05</comment>
+  </data>
+  <data name="pages_account_login_localize_text_0000" xml:space="preserve">
+    <value>Access denied</value>
+    <comment>2012-01-08 21:25:05</comment>
+  </data>
+  <data name="pages_account_login_localize_text_0001" xml:space="preserve">
+    <value>You are not authorized to view this page.</value>
+    <comment>2012-01-08 21:25:05</comment>
+  </data>
+  <data name="pages_account_login_login_failuretext_0000" xml:space="preserve">
+    <value>&lt;div data-dialog-message="Access denied"&gt;
+&lt;p&gt;&lt;b&gt;User cannot login.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Invalid user name, password or account is blocked.&lt;/p&gt;
+&lt;/div&gt;</value>
+    <comment>2012-01-08 21:25:05</comment>
+  </data>
+  <data name="pages_account_login_requiredfieldvalidator_errormessage_0000" xml:space="preserve">
+    <value>User name is missing</value>
+    <comment>2012-01-08 21:25:05</comment>
+  </data>
+  <data name="pages_account_login_requiredfieldvalidator_errormessage_0001" xml:space="preserve">
+    <value>Password is missing</value>
+    <comment>2012-01-08 21:25:05</comment>
+  </data>
+  <data name="pages_account_login_title" xml:space="preserve">
+    <value>Login</value>
+    <comment>2012-01-08 21:25:05</comment>
+  </data>
+  <data name="pages_account_password_comparevalidator_errormessage_0000" xml:space="preserve">
+    <value>Password confirmation does not match</value>
+    <comment>2012-01-08 21:25:05</comment>
+  </data>
+  <data name="pages_account_password_changepassword_changepasswordfailuretext_0000" xml:space="preserve">
+    <value>&lt;div data-dialog-message="Password change failed"&gt;
+&lt;p&gt;&lt;b&gt;Password cannot be changed.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Old password is incorrect or new password does not meet the complexity requirements: Minimal length: {0}, non-alphanumeric characters required: {1}.&lt;/p&gt;
+&lt;/div&gt;</value>
+    <comment>2012-01-08 21:25:05</comment>
+  </data>
+  <data name="pages_account_password_label_text_0000" xml:space="preserve">
+    <value>Current password:</value>
+    <comment>2012-01-08 21:25:05</comment>
+  </data>
+  <data name="pages_account_password_label_text_0001" xml:space="preserve">
+    <value>New password:</value>
+    <comment>2012-01-08 21:25:05</comment>
+  </data>
+  <data name="pages_account_password_label_text_0002" xml:space="preserve">
+    <value>Password confirmation:</value>
+    <comment>2012-01-08 21:25:05</comment>
+  </data>
+  <data name="pages_account_password_localize_text_0000" xml:space="preserve">
+    <value>Your password has been changed!</value>
+    <comment>2012-01-08 21:25:05</comment>
+  </data>
+  <data name="pages_account_password_requiredfieldvalidator_errormessage_0000" xml:space="preserve">
+    <value>New password is missing</value>
+    <comment>2012-01-08 21:25:05</comment>
+  </data>
+  <data name="pages_account_password_requiredfieldvalidator_errormessage_0001" xml:space="preserve">
+    <value>Password confirmation is missing</value>
+    <comment>2012-01-08 21:25:05</comment>
+  </data>
+  <data name="pages_account_password_title" xml:space="preserve">
+    <value>Change password</value>
+    <comment>2012-01-08 21:25:05</comment>
+  </data>
+  <data name="pages_admin_useredit_button_text_0000" xml:space="preserve">
+    <value>Delete</value>
+    <comment>2012-01-11 03:40:09</comment>
+  </data>
+  <data name="pages_admin_useredit_checkbox_text_0000" xml:space="preserve">
+    <value>this user is enabled</value>
+    <comment>2012-01-11 03:40:09</comment>
+  </data>
+  <data name="pages_admin_useredit_checkbox_text_0001" xml:space="preserve">
+    <value>this user is SEWEN Wiki administrator</value>
+    <comment>2012-01-11 03:40:09</comment>
+  </data>
+  <data name="pages_admin_useredit_label_text_0000" xml:space="preserve">
+    <value>E-mail:</value>
+    <comment>2012-01-11 03:40:09</comment>
+  </data>
+  <data name="pages_admin_useredit_label_text_0001" xml:space="preserve">
+    <value>New password: (leave empty when no change requested)</value>
+    <comment>2012-01-11 03:40:09</comment>
+  </data>
+  <data name="pages_admin_useredit_regularexpressionvalidator_errormessage_0000" xml:space="preserve">
+    <value>E-mail is invalid</value>
+    <comment>2012-01-11 03:40:09</comment>
+  </data>
+  <data name="pages_admin_useredit_requiredfieldvalidator_errormessage_0000" xml:space="preserve">
+    <value>E-mail is missing</value>
+    <comment>2012-01-11 03:40:09</comment>
+  </data>
+  <data name="pages_admin_useredit_title" xml:space="preserve">
+    <value>Edit user</value>
+    <comment>2012-01-11 03:40:09</comment>
+  </data>
+  <data name="pages_admin_userlist_label_text_0000" xml:space="preserve">
+    <value>Initial password:</value>
+    <comment>2012-01-11 03:40:09</comment>
+  </data>
+  <data name="pages_admin_userlist_literal_text_0000" xml:space="preserve">
+    <value>&lt;div data-dialog-message="Information"&gt;&lt;p&gt;User was created successfully.&lt;/p&gt;&lt;/div&gt;</value>
+    <comment>2012-01-11 03:40:09</comment>
+  </data>
+  <data name="pages_admin_userlist_literal_text_0001" xml:space="preserve">
+    <value>&lt;div data-dialog-message="Error"&gt;&lt;p&gt;User was not created.&lt;/p&gt;&lt;p&gt;Error status returned by provider: &lt;code&gt;{0}&lt;/code&gt;.&lt;/p&gt;&lt;/div&gt;</value>
+    <comment>2012-01-11 03:40:09</comment>
+  </data>
+  <data name="pages_admin_userlist_localize_text_0000" xml:space="preserve">
+    <value>new user</value>
+    <comment>2012-01-11 03:40:09</comment>
+  </data>
+  <data name="pages_admin_userlist_localize_text_0001" xml:space="preserve">
+    <value>User name</value>
+    <comment>2012-01-11 03:40:09</comment>
+  </data>
+  <data name="pages_admin_userlist_localize_text_0002" xml:space="preserve">
+    <value>E-mail</value>
+    <comment>2012-01-11 03:40:09</comment>
+  </data>
+  <data name="pages_admin_userlist_localize_text_0003" xml:space="preserve">
+    <value>Date created</value>
+    <comment>2012-01-11 03:40:09</comment>
+  </data>
+  <data name="pages_admin_userlist_localize_text_0004" xml:space="preserve">
+    <value>Last login</value>
+    <comment>2012-01-11 03:40:09</comment>
+  </data>
+  <data name="pages_admin_userlist_requiredfieldvalidator_errormessage_0000" xml:space="preserve">
+    <value>Initial password is missing</value>
+    <comment>2012-01-11 03:40:09</comment>
+  </data>
+  <data name="pages_admin_userlist_title" xml:space="preserve">
+    <value>Manage users</value>
+    <comment>2012-01-11 03:40:09</comment>
+  </data>
+  <data name="pages_history_hyperlink_confirm_0000" xml:space="preserve">
+    <value>Are you sure you want to delete all versions of this page?</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_history_hyperlink_text_0000" xml:space="preserve">
+    <value>back to page</value>
+    <comment>2012-01-11 03:40:09</comment>
+  </data>
+  <data name="pages_history_iconhyperlink_confirm_0000" xml:space="preserve">
+    <value>Are you sure you want to delete this version of page?</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_history_iconhyperlink_tooltip_0000" xml:space="preserve">
+    <value>Delete this version of page</value>
+    <comment>2012-01-11 03:40:09</comment>
+  </data>
+  <data name="pages_history_localize_text_0000" xml:space="preserve">
+    <value>Date</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_history_localize_text_0001" xml:space="preserve">
+    <value>User</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_history_localize_text_0002" xml:space="preserve">
+    <value>IP address</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_history_localize_text_0003" xml:space="preserve">
+    <value>Comment</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_history_title" xml:space="preserve">
+    <value>Page history</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_page_hyperlink_text_0000" xml:space="preserve">
+    <value>new page</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_page_hyperlink_text_0001" xml:space="preserve">
+    <value>search</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_page_hyperlink_text_0002" xml:space="preserve">
+    <value>history</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_page_hyperlink_text_0003" xml:space="preserve">
+    <value>edit page</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_page_iconhyperlink_text_0000" xml:space="preserve">
+    <value>Delete all versions of this page</value>
+    <comment>2012-01-11 04:01:07</comment>
+  </data>
+  <data name="pages_page_info_ip" xml:space="preserve">
+    <value>IP: {0}</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_page_info_user" xml:space="preserve">
+    <value>User: {0}</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_page_info_version" xml:space="preserve">
+    <value>Version: {0:d} {0:T}</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_page_localize_text_0000" xml:space="preserve">
+    <value>Page not found</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_page_localize_text_0001" xml:space="preserve">
+    <value>Specified page was not found.</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_page_title" xml:space="preserve">
+    <value>Simple Embeddable Wiki Engine</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_pageedit_label_text_0000" xml:space="preserve">
+    <value>Comment:</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_pageedit_localize_text_0000" xml:space="preserve">
+    <value>Page not found</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_pageedit_requiredfieldvalidator_errormessage_0000" xml:space="preserve">
+    <value>Body is missing</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_pageedit_title" xml:space="preserve">
+    <value>Edit page</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_pagenew_label_text_0000" xml:space="preserve">
+    <value>Title:</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_pagenew_label_text_0001" xml:space="preserve">
+    <value>Body:</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_pagenew_requiredfieldvalidator_errormessage_0000" xml:space="preserve">
+    <value>Title is missing</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_pagenew_title" xml:space="preserve">
+    <value>Create new page</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_search_localize_text_0000" xml:space="preserve">
+    <value>Search results</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_search_localize_text_0001" xml:space="preserve">
+    <value>No pages found.</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_search_requiredfieldvalidator_errormessage_0000" xml:space="preserve">
+    <value>Query is missing</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_search_title" xml:space="preserve">
+    <value>Search</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_site_master_footer" xml:space="preserve">
+    <value>powered by &lt;a href="http://sewenwiki.codeplex.com/"&gt;SEWEN Wiki&lt;/a&gt; - Simple Embeddable Wiki Engine | &amp;copy; &lt;a href="http://www.altairis.cz/?utm_medium=footerlink&amp;utm_source=sewen"&gt;Altairis&lt;/a&gt;, 2011-2012</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_site_master_hyperlink_text_0000" xml:space="preserve">
+    <value>SEWEN - Simple Embeddable Web Engine</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_site_master_hyperlink_tooltip_0000" xml:space="preserve">
+    <value>Return to home page</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_site_master_iconhyperlink_confirm_0002" xml:space="preserve">
+    <value>Are you sure you want to logout?</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="pages_site_master_iconhyperlink_text_0000" xml:space="preserve">
+    <value>Login</value>
+    <comment>2012-01-08 21:25:05</comment>
+  </data>
+  <data name="pages_site_master_iconhyperlink_text_0001" xml:space="preserve">
+    <value>Change password</value>
+    <comment>2012-01-08 21:25:05</comment>
+  </data>
+  <data name="pages_site_master_iconhyperlink_text_0002" xml:space="preserve">
+    <value>Logout</value>
+    <comment>2012-01-08 21:25:05</comment>
+  </data>
+  <data name="pages_site_master_iconhyperlink_text_0003" xml:space="preserve">
+    <value>Manage users</value>
+    <comment>2012-01-11 03:40:09</comment>
+  </data>
+  <data name="pages_site_master_loginname_formatstring_0000" xml:space="preserve">
+    <value>User: &lt;b&gt;{0}&lt;/b&gt;</value>
+    <comment>2012-01-11 03:40:09</comment>
+  </data>
+  <data name="pages_site_master_loginname_formatstring_0001" xml:space="preserve">
+    <value>Admin: &lt;b&gt;{0}&lt;/b&gt;</value>
+    <comment>2012-01-11 03:40:09</comment>
+  </data>
+  <data name="_ConfirmTitle" xml:space="preserve">
+    <value>Confirmation</value>
+    <comment>2012-01-07 20:09:15</comment>
+  </data>
+  <data name="_ConfirmButtons" xml:space="preserve">
+    <value>Yes;No</value>
+    <comment>2012-01-11 20:43:00</comment>
+  </data>
+  <data name="pages_history_hyperlink_confirm_0001" xml:space="preserve">
+    <value>Are you sure you want to delete all versions of page, except the most recent?</value>
+    <comment>2012-01-12 04:13:00</comment>
+  </data>
+  <data name="pages_page_iconhyperlink_text_0001" xml:space="preserve">
+    <value>Delete all versions, except current</value>
+    <comment>2012-01-12 04:13:00</comment>
+  </data>
+  <data name="_WikiEditToolbar" xml:space="preserve">
+    <value>B:Bold;I:Italic;U:Underline;S:Strikethrough;Sup:Superscript;Sub:Subscript;;H1:Heading 1;H2:Heading 2;H3:Heading 3;H4:Heading 4;H5:Heading 5;H6:Heading 6;;WikiLink:Link to Wiki Page;ExtLink:External Link (URL);;Ul:Bulleted List;Ol:Numbered List;;CodeBlock:Source code;;Preview:Preview</value>
+    <comment>2012-01-19 13:17:00</comment>
+  </data>
+</root>

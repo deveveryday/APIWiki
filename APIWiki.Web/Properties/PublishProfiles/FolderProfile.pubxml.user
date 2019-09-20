@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\artur.justino\Downloads\Altairis\Altairis.Sewen.Wiki\bin\Release\Publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Data/AccountService.sdf">
+      <publishTime>09/19/2019 12:13:46</publishTime>
+    </File>
+    <File Include="App_Data/Default/AccountService.default.sdf">
+      <publishTime>09/19/2019 12:03:20</publishTime>
+    </File>
+    <File Include="App_Data/Default/AccountService.default.sql">
+      <publishTime>09/19/2019 10:24:23</publishTime>
+    </File>
+    <File Include="App_Data/Default/SewenPageStore.default.sdf">
+      <publishTime>09/19/2019 10:24:23</publishTime>
+    </File>
+    <File Include="App_Data/Default/SewenPageStore.default.sql">
+      <publishTime>09/19/2019 10:24:23</publishTime>
+    </File>
+    <File Include="App_Data/Empty/AccountService.empty.sdf">
+      <publishTime>09/19/2019 10:24:23</publishTime>
+    </File>
+    <File Include="App_Data/Empty/AccountService.empty.sql">
+      <publishTime>09/19/2019 10:24:23</publishTime>
+    </File>
+    <File Include="App_Data/Empty/SewenPageStore.empty.sdf">
+      <publishTime>09/19/2019 10:24:23</publishTime>
+    </File>
+    <File Include="App_Data/Empty/SewenPageStore.empty.sql">
+      <publishTime>09/19/2019 10:24:23</publishTime>
+    </File>
+    <File Include="App_Data/SewenPageStore.sdf">
+      <publishTime>09/19/2019 12:13:46</publishTime>
+    </File>
+    <File Include="App_GlobalResources/UI.cs.resx">
+      <publishTime>09/19/2019 12:10:25</publishTime>
+    </File>
+    <File Include="App_GlobalResources/UI.resx">
+      <publishTime>09/19/2019 10:24:23</publishTime>
+    </File>
+    <File Include="App_Themes/Normalize/SkinFile.skin">
+      <publishTime>09/19/2019 10:24:23</publishTime>
+    </File>
+    <File Include="bin/Altairis.Sewen.Core.dll">
+      <publishTime>01/12/2012 03:28:22</publishTime>
+    </File>
+    <File Include="bin/Altairis.Sewen.Wiki.dll">
+      <publishTime>09/19/2019 12:14:05</publishTime>
+    </File>
+    <File Include="bin/Altairis.Sewen.Wiki.pdb">
+      <publishTime>09/19/2019 12:14:05</publishTime>
+    </File>
+    <File Include="bin/Altairis.Web.Security.dll">
+      <publishTime>12/19/2011 00:01:08</publishTime>
+    </File>
+    <File Include="bin/Altairis.Web.Security.pdb">
+      <publishTime>12/19/2011 00:01:08</publishTime>
+    </File>
+    <File Include="bin/Altairis.Web.UI.dll">
+      <publishTime>05/10/2011 22:27:08</publishTime>
+    </File>
+    <File Include="bin/Altairis.Web.UI.pdb">
+      <publishTime>05/10/2011 22:27:08</publishTime>
+    </File>
+    <File Include="bin/ColorCode.dll">
+      <publishTime>01/06/2011 21:23:54</publishTime>
+    </File>
+    <File Include="bin/ColorCode.pdb">
+      <publishTime>01/06/2011 21:23:54</publishTime>
+    </File>
+    <File Include="bin/cs-CZ/Altairis.Web.UI.resources.dll">
+      <publishTime>05/10/2011 22:27:08</publishTime>
+    </File>
+    <File Include="bin/WikiPlex.dll">
+      <publishTime>01/06/2011 21:25:44</publishTime>
+    </File>
+    <File Include="bin/WikiPlex.pdb">
+      <publishTime>01/06/2011 21:25:44</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>09/19/2019 10:24:23</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/19/2019 10:24:23</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/19/2019 10:24:23</publishTime>
+    </File>
+    <File Include="Pages/Account/Login.aspx">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Pages/Account/Password.aspx">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Pages/Admin/UserEdit.aspx">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Pages/Admin/UserList.aspx">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Pages/History.aspx">
+      <publishTime>09/19/2019 10:24:23</publishTime>
+    </File>
+    <File Include="Pages/Page.aspx">
+      <publishTime>09/19/2019 10:24:23</publishTime>
+    </File>
+    <File Include="Pages/PageEdit.aspx">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Pages/PageNew.aspx">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Pages/Preview.aspx">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Pages/Search.aspx">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Pages/Site.Master">
+      <publishTime>09/19/2019 12:11:49</publishTime>
+    </File>
+    <File Include="Pages/Web.config">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery.dialogHelper.js">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery.sewenEditor.js">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery.textinputs.min.js">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Scripts/ui.js">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Styles/Images/SewenEditor/b.png">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Styles/Images/SewenEditor/codeBlock.png">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Styles/Images/SewenEditor/extLink.png">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Styles/Images/SewenEditor/h1.png">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Styles/Images/SewenEditor/h2.png">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Styles/Images/SewenEditor/h3.png">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Styles/Images/SewenEditor/h4.png">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Styles/Images/SewenEditor/h5.png">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Styles/Images/SewenEditor/h6.png">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Styles/Images/SewenEditor/i.png">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Styles/Images/SewenEditor/ol.png">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Styles/Images/SewenEditor/preview.png">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Styles/Images/SewenEditor/s.png">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Styles/Images/SewenEditor/sub.png">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Styles/Images/SewenEditor/sup.png">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Styles/Images/SewenEditor/u.png">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Styles/Images/SewenEditor/ul.png">
+      <publishTime>09/19/2019 10:24:25</publishTime>
+    </File>
+    <File Include="Styles/Images/SewenEditor/wikiLink.png">
+      <publishTime>09/19/2019 10:24:25</publishTime>
+    </File>
+    <File Include="Styles/Images/SewenLogo.png">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Styles/main.css">
+      <publishTime>09/19/2019 10:24:24</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/19/2019 12:14:05</publishTime>
+    </File>
+    <File Include="_app_offline.htm">
+      <publishTime>09/19/2019 10:24:23</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

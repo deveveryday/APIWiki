@@ -1,0 +1,199 @@
+﻿//* scss-compile-options: :style => :compressed
+
+// Variables
+$Blue: #6ea6d1;
+$DarkBlue: #1b75bc;
+$LightBlue: #e8f1f8;
+$LightGray: #eee;
+$DarkGray: #666;
+
+// Page layout
+html {
+	scrollbar-arrow-color: $DarkBlue;
+	scrollbar-track-color: $LightGray;
+	scrollbar-darkshadow-color: $LightGray;
+	scrollbar-face-color: $LightBlue;
+	scrollbar-highlight-color: $Blue;
+	scrollbar-shadow-color: $Blue
+}
+body {
+	background-color: $LightGray;
+	margin: 0 auto;
+	padding: 0;
+	font: {
+		family: Lucida Grande, Lucida Sans, Arial, sans-serif; 
+		size: .9em;
+	}
+	max-width: 1200px;
+}
+
+form{
+	> header {
+		display: block; 
+		padding: 20px 30px 0 30px;
+		font-size: 90%;
+		ul {
+			margin: -10px -5px 0 0;
+			padding: .5ex 1ex;
+			float: right;
+			li {
+				margin: .25ex 0; 
+				padding: 0;
+				list-style-type: none;
+			}
+		}
+	}
+	> footer {
+		display: block; 
+		font-size: 75%;
+		padding: 0 30px 10px 30px;
+		text-align: right;
+	}
+}
+
+// General HTML constructs
+a {
+	&:link { color: $Blue !important; }
+	&:visited { color: $DarkBlue !important; }
+	&:hover { color: #f00 !important; }
+	&.internalNewLink {
+		color: #000 !important; 
+		text-decoration: none;
+		border-bottom: dotted 1px $Blue;
+	}
+}
+img { 
+	border: none; 
+}
+@for $i from 1 through 5 {
+	h#{$i} {
+		color: $DarkGray;
+		font: { weight: normal; size: 50% + (5 - $i) * 30; }
+	}
+}
+
+// Article formatting
+article {
+	display: block;
+	margin: 10px 25px;
+	padding: 3px;
+	background-color: #fff;
+	border: 1px solid $Blue;
+	> header {
+		display: block;
+		padding: 1ex;
+		background-color: $Blue;
+		h1 { 
+			margin: 0;
+			color: #fff;
+		}
+	}
+	> nav {
+		font-size: 75%;
+		background-color: $LightBlue;
+		ul {
+			margin: 0; 
+			padding: 1ex;
+			li {
+				list-style-type: none;
+				display: inline;
+			}
+			li:nth-last-child(n+2):after {
+				content: '|';
+			}
+		}
+	}
+	> div {
+		padding: 1em;
+	}
+	> footer {
+		display: block;
+		padding: 1ex;
+		background-color: $LightGray;
+	}
+}
+
+// jQuery UI
+.ui-icon { 
+	display: inline-block !important; 
+}
+.ui-dialog {
+	font-size: 80% !important;
+	table { 
+		width: 100%;
+	}
+}
+
+// Wiki markup
+table {
+	border-collapse: collapse;
+	border: none;
+}
+table td, table th {
+	border: 1px solid $DarkBlue;
+	padding: .5ex;
+}
+table th {
+	background-color: $LightBlue;
+}
+pre, code, .codeInline {
+	font: { family: Consolas, Courier New, Courier, monospace; size: 100%; }
+}
+pre {
+	background-color: $LightBlue;
+	padding: .75ex 1ex;
+	border: 1px dotted $DarkBlue;
+}
+blockquote {
+	background-color: $LightBlue;
+	padding: .1ex 2ex;
+	border: 1px solid $DarkBlue;
+	border-radius: 6px;
+}
+
+// Forms
+.textbox {
+	box-sizing: border-box;
+	width: 100%;
+	font: { family: Consolas, Courier New, Courier, monospace; size: 100%; }
+	padding: 1ex;
+	border: 1px solid $DarkGray;
+}
+
+// SEWEN editor toolbar
+.sewen-editor-toolbar {
+	border: 1px solid $DarkGray;
+	border-bottom: none;
+	background-color: $LightGray !important;
+	padding: 4px 4px 1px 4px;
+	.separator {
+		margin-right: 1ex;
+	}
+	button {
+		display: inline-block;
+		font-size: 0;
+		width: 24px;
+		height: 24px;
+		background-repeat: no-repeat !important;
+		background-position: center center;
+		margin-right: 2px;
+	}
+	.B         { background-image: url('Images/SewenEditor/b.png') !important; }
+	.I         { background-image: url('Images/SewenEditor/i.png') !important;  }
+	.U         { background-image: url('Images/SewenEditor/u.png') !important; }
+	.S         { background-image: url('Images/SewenEditor/s.png') !important; }
+	.Sup       { background-image: url('Images/SewenEditor/sup.png') !important; }
+	.Sub       { background-image: url('Images/SewenEditor/sub.png') !important; }
+	.H1        { background-image: url('Images/SewenEditor/h1.png') !important; }
+	.H2        { background-image: url('Images/SewenEditor/h2.png') !important; }
+	.H3        { background-image: url('Images/SewenEditor/h3.png') !important; }
+	.H4        { background-image: url('Images/SewenEditor/h4.png') !important; }
+	.H5        { background-image: url('Images/SewenEditor/h5.png') !important; }
+	.H6        { background-image: url('Images/SewenEditor/h6.png') !important; }
+	.Ul        { background-image: url('Images/SewenEditor/ul.png') !important; }
+	.Ol        { background-image: url('Images/SewenEditor/ol.png') !important; }
+	.WikiLink  { background-image: url('Images/SewenEditor/wikiLink.png') !important; }
+	.ExtLink   { background-image: url('Images/SewenEditor/extLink.png') !important; }
+	.CodeBlock { background-image: url('Images/SewenEditor/codeBlock.png') !important; }
+	.Preview   { background-image: url('Images/SewenEditor/preview.png') !important; }
+}
